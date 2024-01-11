@@ -1,10 +1,11 @@
-export interface LoginProps {
+interface CardProps {
+  
 }
 
-export default function Login() {
+export default function Card ({  }: CardProps) {
     return (
         <div>
-            This is Login page
+            Card
         </div>
-    );
+    )
 }

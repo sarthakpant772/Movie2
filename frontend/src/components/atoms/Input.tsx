@@ -1,10 +1,11 @@
-export interface LoginProps {
+interface InputProps {
+  
 }
 
-export default function Login() {
+export default function Input ({  }: InputProps) {
     return (
         <div>
-            This is Login page
+            Input
         </div>
-    );
+    )
 }

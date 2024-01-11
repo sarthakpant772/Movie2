@@ -1,10 +1,11 @@
-export interface LoginProps {
+interface SeatProps {
+  
 }
 
-export default function Login() {
+export default function Seat ({  }: SeatProps) {
     return (
         <div>
-            This is Login page
+            Seat
         </div>
-    );
+    )
 }
