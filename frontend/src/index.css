@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    font-size: calc(10px + 0.5vw);
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
